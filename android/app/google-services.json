@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "182893740360",
+    "project_id": "fuel-forecast",
+    "storage_bucket": "fuel-forecast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182893740360:android:72bcc0cdee3f2534e4737d",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182893740360-vqkk884dnrptlkqf5mact8b37g8la4q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByKgp7I3rxEKmcGR3091RRu06_HACyXc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182893740360-vqkk884dnrptlkqf5mact8b37g8la4q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
