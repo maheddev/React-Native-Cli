@@ -11,6 +11,7 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\Muhamm
 MERGED from [:react-native-community_masked-view] G:\TestGit\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
+MERGED from [:lottie-react-native] G:\TestGit\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] G:\TestGit\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -33,6 +34,7 @@ MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] C:\Users\Muhammad Uma
 MERGED from [com.facebook.fresco:imagepipeline:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\01ae07a9f04d1f12e8fa81d1bd249899\transformed\jetified-imagepipeline-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\a42b84f1d12d7f8e5e24c89601c64489\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\19c228b7e5385f336c28dcbed1558165\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:5.1.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0a80f419b7acc1e4ea835ea623fc8f3c\transformed\jetified-lottie-5.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e3293ae0ad33779fbdd717a6184558e6\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e0686102678e5eabdd57921af541c76e\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\f6bdb268ca936a9598c19889cc3bc79a\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
@@ -112,6 +114,8 @@ MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.grad
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] G:\TestGit\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] G:\TestGit\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 	android:name
@@ -126,6 +130,8 @@ MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gr
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0122e8e9b27e7db8b659605e0ed45f78\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0122e8e9b27e7db8b659605e0ed45f78\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:5.1.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0a80f419b7acc1e4ea835ea623fc8f3c\transformed\jetified-lottie-5.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:5.1.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0a80f419b7acc1e4ea835ea623fc8f3c\transformed\jetified-lottie-5.1.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e3293ae0ad33779fbdd717a6184558e6\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e3293ae0ad33779fbdd717a6184558e6\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
@@ -220,6 +226,8 @@ MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-
 MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:lottie-react-native] G:\TestGit\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] G:\TestGit\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -264,6 +272,8 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\Muhammad 
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\a42b84f1d12d7f8e5e24c89601c64489\transformed\jetified-nativeimagetranscoder-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\19c228b7e5385f336c28dcbed1558165\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\19c228b7e5385f336c28dcbed1558165\transformed\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.1.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0a80f419b7acc1e4ea835ea623fc8f3c\transformed\jetified-lottie-5.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.1.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0a80f419b7acc1e4ea835ea623fc8f3c\transformed\jetified-lottie-5.1.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e3293ae0ad33779fbdd717a6184558e6\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e3293ae0ad33779fbdd717a6184558e6\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e0686102678e5eabdd57921af541c76e\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
