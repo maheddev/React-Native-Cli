@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import {
+  ActivityIndicator,
   Alert,
   Pressable,
   StyleSheet,
@@ -8,17 +9,45 @@ import {
   Touchable,
   View,
 } from 'react-native';
+import Lottie from 'lottie-react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import auth from '@react-native-firebase/auth';
+import Dashboard from './dashboard';
 
-const Login = () => {
+const Login = ({navigation}) => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
+  const [waiting, setWaiting] = useState(false);
   const Data = {
     mail: email,
     pass: password,
   };
+  const loginState = data => {};
   const LoginButtonPressed = () => {
+    setWaiting(true);
+    auth()
+      .signInWithEmailAndPassword(email, password)
+      .then(() => {
+        console.log('User account created & signed in!');
+        setWaiting(false);
+        navigation.navigate('dashboard');
+      })
+      .catch(error => {
+        if (error.code === 'auth/wrong-password') {
+          setWaiting(false);
+          Alert.alert('Password Invalid!');
+        }
+
+        if (error.code === 'auth/invalid-email') {
+          setWaiting(false);
+          Alert.alert('That email address is invalid!');
+        }
+        setWaiting(false);
+        console.log(error);
+      });
+  };
+
+  const SignUpButtonPressed = () => {
     auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {
@@ -39,20 +68,38 @@ const Login = () => {
 
   return (
     <View style={styles.MainView}>
-      <TextInput
-        style={styles.TextInput}
-        placeholder="Your E-mail Here!"
-        onChangeText={mail => setEmail(mail)}
-      />
-      <TextInput
-        style={styles.TextInput}
-        placeholder="Your Password here!"
-        secureTextEntry={true}
-        onChangeText={pass => setPassword(pass)}
-      />
-      <TouchableOpacity onPress={LoginButtonPressed} style={styles.Pressable}>
-        <Text style={styles.PressableText}>Click Here!</Text>
-      </TouchableOpacity>
+      {!waiting && (
+        <View>
+          <TextInput
+            style={styles.TextInput}
+            placeholder="Your E-mail Here!"
+            onChangeText={mail => setEmail(mail)}
+          />
+
+          <TextInput
+            style={styles.TextInput}
+            placeholder="Your Password here!"
+            secureTextEntry={true}
+            onChangeText={pass => setPassword(pass)}
+          />
+          <TouchableOpacity
+            onPress={LoginButtonPressed}
+            style={styles.Pressable}>
+            <Text style={styles.PressableText}>Sign In!</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            onPress={SignUpButtonPressed}
+            style={styles.Pressable}>
+            <Text style={styles.PressableText}>Sign Up!</Text>
+          </TouchableOpacity>
+        </View>
+      )}
+
+      {waiting && (
+        <View style={{width: 100, height: 100}}>
+          <Lottie source={require('../assets/loader.json')} autoPlay loop />
+        </View>
+      )}
     </View>
   );
 };

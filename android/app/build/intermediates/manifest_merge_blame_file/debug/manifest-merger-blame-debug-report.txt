@@ -9,93 +9,93 @@
 9        android:targetSdkVersion="31" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->G:\Test\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->G:\Test\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->G:\Test\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->G:\Test\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->G:\TestGit\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->G:\TestGit\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
-14-->[:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+14-->[:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
-15-->[:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+15-->[:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
 16
 17    <application
-17-->G:\Test\android\app\src\main\AndroidManifest.xml:6:5-25:19
+17-->G:\TestGit\android\app\src\main\AndroidManifest.xml:6:5-25:19
 18        android:name="com.test.MainApplication"
-18-->G:\Test\android\app\src\main\AndroidManifest.xml:7:7-38
+18-->G:\TestGit\android\app\src\main\AndroidManifest.xml:7:7-38
 19        android:allowBackup="false"
-19-->G:\Test\android\app\src\main\AndroidManifest.xml:11:7-34
+19-->G:\TestGit\android\app\src\main\AndroidManifest.xml:11:7-34
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.7.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\8fcb66759c7e5a40fc028cb8d6aa1769\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->G:\Test\android\app\src\main\AndroidManifest.xml:9:7-41
+22-->G:\TestGit\android\app\src\main\AndroidManifest.xml:9:7-41
 23        android:label="@string/app_name"
-23-->G:\Test\android\app\src\main\AndroidManifest.xml:8:7-39
+23-->G:\TestGit\android\app\src\main\AndroidManifest.xml:8:7-39
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->G:\Test\android\app\src\main\AndroidManifest.xml:10:7-52
+24-->G:\TestGit\android\app\src\main\AndroidManifest.xml:10:7-52
 25        android:theme="@style/AppTheme"
-25-->G:\Test\android\app\src\main\AndroidManifest.xml:12:7-38
+25-->G:\TestGit\android\app\src\main\AndroidManifest.xml:12:7-38
 26        android:usesCleartextTraffic="true" >
-26-->G:\Test\android\app\src\debug\AndroidManifest.xml:8:9-44
+26-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:8:9-44
 27        <activity
-27-->G:\Test\android\app\src\debug\AndroidManifest.xml:11:9-111
+27-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:9-111
 28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-28-->G:\Test\android\app\src\debug\AndroidManifest.xml:11:19-83
+28-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:19-83
 29            android:exported="false" />
-29-->G:\Test\android\app\src\debug\AndroidManifest.xml:11:84-108
+29-->G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:84-108
 30        <activity
-30-->G:\Test\android\app\src\main\AndroidManifest.xml:13:7-24:18
+30-->G:\TestGit\android\app\src\main\AndroidManifest.xml:13:7-24:18
 31            android:name="com.test.MainActivity"
-31-->G:\Test\android\app\src\main\AndroidManifest.xml:14:9-37
+31-->G:\TestGit\android\app\src\main\AndroidManifest.xml:14:9-37
 32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-32-->G:\Test\android\app\src\main\AndroidManifest.xml:16:9-118
+32-->G:\TestGit\android\app\src\main\AndroidManifest.xml:16:9-118
 33            android:exported="true"
-33-->G:\Test\android\app\src\main\AndroidManifest.xml:19:9-32
+33-->G:\TestGit\android\app\src\main\AndroidManifest.xml:19:9-32
 34            android:label="@string/app_name"
-34-->G:\Test\android\app\src\main\AndroidManifest.xml:15:9-41
+34-->G:\TestGit\android\app\src\main\AndroidManifest.xml:15:9-41
 35            android:launchMode="singleTask"
-35-->G:\Test\android\app\src\main\AndroidManifest.xml:17:9-40
+35-->G:\TestGit\android\app\src\main\AndroidManifest.xml:17:9-40
 36            android:windowSoftInputMode="adjustResize" >
-36-->G:\Test\android\app\src\main\AndroidManifest.xml:18:9-51
+36-->G:\TestGit\android\app\src\main\AndroidManifest.xml:18:9-51
 37            <intent-filter>
-37-->G:\Test\android\app\src\main\AndroidManifest.xml:20:9-23:25
+37-->G:\TestGit\android\app\src\main\AndroidManifest.xml:20:9-23:25
 38                <action android:name="android.intent.action.MAIN" />
-38-->G:\Test\android\app\src\main\AndroidManifest.xml:21:13-65
-38-->G:\Test\android\app\src\main\AndroidManifest.xml:21:21-62
+38-->G:\TestGit\android\app\src\main\AndroidManifest.xml:21:13-65
+38-->G:\TestGit\android\app\src\main\AndroidManifest.xml:21:21-62
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->G:\Test\android\app\src\main\AndroidManifest.xml:22:13-73
-40-->G:\Test\android\app\src\main\AndroidManifest.xml:22:23-70
+40-->G:\TestGit\android\app\src\main\AndroidManifest.xml:22:13-73
+40-->G:\TestGit\android\app\src\main\AndroidManifest.xml:22:23-70
 41            </intent-filter>
 42        </activity>
 43
 44        <meta-data
-44-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+44-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
 45            android:name="app_data_collection_default_enabled"
-45-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+45-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
 46            android:value="true" />
-46-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+46-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
 47
 48        <service
-48-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+48-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
 49            android:name="com.google.firebase.components.ComponentDiscoveryService"
-49-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+49-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
 50            android:directBootAware="true"
-50-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+50-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
 51            android:exported="false" >
-51-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+51-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 52            <meta-data
-52-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+52-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
 53                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-53-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+53-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
 54                android:value="com.google.firebase.components.ComponentRegistrar" />
-54-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+54-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
 55            <meta-data
 55-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
 56                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -105,15 +105,15 @@
 58        </service>
 59
 60        <provider
-60-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+60-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
 61            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-61-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+61-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
 62            android:authorities="com.test.reactnativefirebaseappinitprovider"
-62-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+62-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
 63            android:exported="false"
-63-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+63-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 64            android:initOrder="99" />
-64-->[:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+64-->[:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
 65
 66        <activity
 66-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
