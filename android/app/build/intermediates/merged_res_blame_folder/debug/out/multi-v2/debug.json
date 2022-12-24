@@ -7195,6 +7195,23 @@
             "outputFile": "com.test.app-merged_res-35:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "G:\\TestGit\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "161,269",
+                        "endColumns": "63,68",
+                        "endOffsets": "220,333"
+                    },
+                    "to": {
+                        "startLines": "676,677",
+                        "startColumns": "4,4",
+                        "startOffsets": "43032,43096",
+                        "endColumns": "63,68",
+                        "endOffsets": "43091,43160"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Muhammad Umair\\.gradle\\caches\\transforms-3\\3f43b77e183db7705d57ff479a2fb790\\transformed\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -7228,25 +7245,6 @@
                         "startOffsets": "6617,6675,6741,6804,19535,19606,52299,52979,53046,53125",
                         "endColumns": "57,65,62,61,70,71,67,66,78,68",
                         "endOffsets": "6670,6736,6799,6861,19601,19673,52362,53041,53120,53189"
-                    }
-                },
-                {
-                    "source": "G:\\Test\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "872",
-                        "startColumns": "4",
-                        "startOffsets": "64499",
-                        "endLines": "875",
-                        "endColumns": "12",
-                        "endOffsets": "64677"
                     }
                 },
                 {
@@ -7377,20 +7375,37 @@
                     }
                 },
                 {
-                    "source": "G:\\Test\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "source": "G:\\TestGit\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "161,269",
-                        "endColumns": "63,68",
-                        "endOffsets": "220,333"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,711",
+                        "endColumns": "143,81,103,108,119,96,73",
+                        "endOffsets": "194,276,380,489,609,706,780"
                     },
                     "to": {
-                        "startLines": "676,677",
-                        "startColumns": "4,4",
-                        "startOffsets": "43032,43096",
-                        "endColumns": "63,68",
-                        "endOffsets": "43091,43160"
+                        "startLines": "771,779,780,781,782,783,833",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "52367,53194,53276,53380,53489,53609,61608",
+                        "endColumns": "143,81,103,108,119,96,73",
+                        "endOffsets": "52506,53271,53375,53484,53604,53701,61677"
+                    }
+                },
+                {
+                    "source": "G:\\TestGit\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "713",
+                        "startColumns": "4",
+                        "startOffsets": "45634",
+                        "endColumns": "41",
+                        "endOffsets": "45671"
                     }
                 },
                 {
@@ -7502,20 +7517,22 @@
                     }
                 },
                 {
-                    "source": "G:\\Test\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "G:\\TestGit\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,711",
-                        "endColumns": "143,81,103,108,119,96,73",
-                        "endOffsets": "194,276,380,489,609,706,780"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
                     },
                     "to": {
-                        "startLines": "771,779,780,781,782,783,833",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "52367,53194,53276,53380,53489,53609,61608",
-                        "endColumns": "143,81,103,108,119,96,73",
-                        "endOffsets": "52506,53271,53375,53484,53604,53701,61677"
+                        "startLines": "872",
+                        "startColumns": "4",
+                        "startOffsets": "64499",
+                        "endLines": "875",
+                        "endColumns": "12",
+                        "endOffsets": "64677"
                     }
                 },
                 {
@@ -7628,23 +7645,6 @@
                         "endLines": "4614,4620,4630,6720,6724",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "303035,303213,303497,373406,373533"
-                    }
-                },
-                {
-                    "source": "G:\\Test\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "713",
-                        "startColumns": "4",
-                        "startOffsets": "45634",
-                        "endColumns": "41",
-                        "endOffsets": "45671"
                     }
                 }
             ]

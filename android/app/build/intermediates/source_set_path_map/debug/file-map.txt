@@ -26,18 +26,19 @@ com.test.app-jetified-flipper-0.125.0-24 C:\Users\Muhammad Umair\.gradle\caches\
 com.test.app-jetified-core-ktx-1.6.0-25 C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e9e3f6992fa799e60f0cb887983616d2\transformed\jetified-core-ktx-1.6.0\res
 com.test.app-lifecycle-runtime-2.4.0-26 C:\Users\Muhammad Umair\.gradle\caches\transforms-3\f23d7ac0545aa9624746404cc33b7cf2\transformed\lifecycle-runtime-2.4.0\res
 com.test.app-jetified-firebase-common-20.2.0-27 C:\Users\Muhammad Umair\.gradle\caches\transforms-3\f6bfc285b1421dbda3f31f0331f5fe48\transformed\jetified-firebase-common-20.2.0\res
-com.test.app-pngs-28 G:\Test\android\app\build\generated\res\pngs\debug
-com.test.app-react-29 G:\Test\android\app\build\generated\res\react\debug
-com.test.app-resValues-30 G:\Test\android\app\build\generated\res\resValues\debug
-com.test.app-rs-31 G:\Test\android\app\build\generated\res\rs\debug
-com.test.app-mergeDebugResources-32 G:\Test\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.test.app-mergeDebugResources-33 G:\Test\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.test.app-merged_res-34 G:\Test\android\app\build\intermediates\merged_res\debug
-com.test.app-debug-35 G:\Test\android\app\src\debug\res
-com.test.app-main-36 G:\Test\android\app\src\main\res
-com.test.app-packaged_res-37 G:\Test\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
-com.test.app-packaged_res-38 G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\packaged_res\debug
-com.test.app-packaged_res-39 G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\packaged_res\debug
-com.test.app-packaged_res-40 G:\Test\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
-com.test.app-packaged_res-41 G:\Test\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
-com.test.app-packaged_res-42 G:\Test\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug
+com.test.app-google-services-28 G:\TestGit\android\app\build\generated\res\google-services\debug
+com.test.app-pngs-29 G:\TestGit\android\app\build\generated\res\pngs\debug
+com.test.app-react-30 G:\TestGit\android\app\build\generated\res\react\debug
+com.test.app-resValues-31 G:\TestGit\android\app\build\generated\res\resValues\debug
+com.test.app-rs-32 G:\TestGit\android\app\build\generated\res\rs\debug
+com.test.app-mergeDebugResources-33 G:\TestGit\android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.test.app-mergeDebugResources-34 G:\TestGit\android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.test.app-merged_res-35 G:\TestGit\android\app\build\intermediates\merged_res\debug
+com.test.app-debug-36 G:\TestGit\android\app\src\debug\res
+com.test.app-main-37 G:\TestGit\android\app\src\main\res
+com.test.app-packaged_res-38 G:\TestGit\node_modules\@react-native-community\masked-view\android\build\intermediates\packaged_res\debug
+com.test.app-packaged_res-39 G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\packaged_res\debug
+com.test.app-packaged_res-40 G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\packaged_res\debug
+com.test.app-packaged_res-41 G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\debug
+com.test.app-packaged_res-42 G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\debug
+com.test.app-packaged_res-43 G:\TestGit\node_modules\react-native-screens\android\build\intermediates\packaged_res\debug

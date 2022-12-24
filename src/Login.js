@@ -20,6 +20,25 @@ const Login = () => {
   };
   const LoginButtonPressed = () => {
     auth()
+      .signInWithEmailAndPassword(email, password)
+      .then(() => {
+        console.log('User account created & signed in!');
+      })
+      .catch(error => {
+        if (error.code === 'auth/email-already-in-use') {
+          console.log('That email address is already in use!');
+        }
+
+        if (error.code === 'auth/invalid-email') {
+          console.log('That email address is invalid!');
+        }
+
+        console.error(error);
+      });
+  };
+
+  const SignUpButtonPressed = () => {
+    auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {
         console.log('User account created & signed in!');
@@ -51,7 +70,10 @@ const Login = () => {
         onChangeText={pass => setPassword(pass)}
       />
       <TouchableOpacity onPress={LoginButtonPressed} style={styles.Pressable}>
-        <Text style={styles.PressableText}>Click Here!</Text>
+        <Text style={styles.PressableText}>Sign In!</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={SignUpButtonPressed} style={styles.Pressable}>
+        <Text style={styles.PressableText}>Sign Up!</Text>
       </TouchableOpacity>
     </View>
   );

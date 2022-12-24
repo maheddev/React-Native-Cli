@@ -1,23 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\00ab1e612f77b9cac62d598d847ae985\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\aaaedaa93dfd23893931742c0d2d21ce\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-community_masked-view] G:\Test\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
-MERGED from [:react-native-gesture-handler] G:\Test\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] G:\Test\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] G:\Test\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] G:\TestGit\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] G:\TestGit\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\eb7552118701046f2690e9b7599e93ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-engine:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\ef939b4308d0437abd406177f8e3920d\transformed\jetified-hermes-engine-0.70.6-debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-reanimated] G:\Test\node_modules\react-native-reanimated\android\build\.transforms\7ab1500d29b9cbfd1eeed51bcdaf3bfe\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] G:\TestGit\node_modules\react-native-reanimated\android\build\.transforms\2856806fcfcaf2d9ec2908810e8e9a43\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0377fd678ba87552402888631ec780dc\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\456146872777beeab747018a0fae10b9\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\77fe6bffbc0158db9d0c09617c681907\transformed\jetified-fresco-2.6.0\AndroidManifest.xml:2:1-9:12
@@ -86,42 +86,42 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\b98f446cacdb1c7c7b41cd2e3c36d252\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0e8f4a209ccd57a42fd2c9745d31a047\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\04bfa9422f944f29395bece79b795b2c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml:2:1-13:12
-INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:2:3-21
-		INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:2:3-21
-		INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:2:3-21
+		INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:2:3-21
+		INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:3:5-51
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
-MERGED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from G:\Test\android\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from G:\Test\android\app\src\main\AndroidManifest.xml:6:5-25:19
-MERGED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from G:\TestGit\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from G:\TestGit\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.4] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0122e8e9b27e7db8b659605e0ed45f78\transformed\jetified-soloader-0.10.4\AndroidManifest.xml:11:5-20
@@ -157,83 +157,83 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Muhammad Umair\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\8fcb66759c7e5a40fc028cb8d6aa1769\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:8:7-39
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:8:7-39
 	tools:ignore
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:10:9-48
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:10:7-52
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:10:7-52
 	tools:targetApi
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:9:9-29
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:9:7-41
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:11:7-34
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:12:7-38
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:usesCleartextTraffic
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:8:9-44
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:7:7-38
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:7:7-38
 activity#com.test.MainActivity
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:13:7-24:18
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:13:7-24:18
 	android:label
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:launchMode
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:17:9-40
 	android:windowSoftInputMode
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:18:9-51
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:18:9-51
 	android:exported
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:19:9-32
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:19:9-32
 	android:configChanges
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:16:9-118
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:16:9-118
 	android:name
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:20:9-23:25
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:21:13-65
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:21:21-62
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:22:13-73
+ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from G:\Test\android\app\src\main\AndroidManifest.xml:22:23-70
+		ADDED from G:\TestGit\android\app\src\main\AndroidManifest.xml:22:23-70
 uses-sdk
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\00ab1e612f77b9cac62d598d847ae985\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\00ab1e612f77b9cac62d598d847ae985\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\aaaedaa93dfd23893931742c0d2d21ce\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\aaaedaa93dfd23893931742c0d2d21ce\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-community_masked-view] G:\Test\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] G:\Test\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-gesture-handler] G:\Test\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] G:\Test\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] G:\Test\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] G:\Test\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] G:\Test\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] G:\Test\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] G:\TestGit\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] G:\TestGit\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] G:\TestGit\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] G:\TestGit\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] G:\TestGit\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] G:\TestGit\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\eb7552118701046f2690e9b7599e93ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\eb7552118701046f2690e9b7599e93ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.react:hermes-engine:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\ef939b4308d0437abd406177f8e3920d\transformed\jetified-hermes-engine-0.70.6-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:hermes-engine:0.70.6] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\ef939b4308d0437abd406177f8e3920d\transformed\jetified-hermes-engine-0.70.6-debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] G:\Test\node_modules\react-native-reanimated\android\build\.transforms\7ab1500d29b9cbfd1eeed51bcdaf3bfe\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] G:\Test\node_modules\react-native-reanimated\android\build\.transforms\7ab1500d29b9cbfd1eeed51bcdaf3bfe\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] G:\TestGit\node_modules\react-native-reanimated\android\build\.transforms\2856806fcfcaf2d9ec2908810e8e9a43\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] G:\TestGit\node_modules\react-native-reanimated\android\build\.transforms\2856806fcfcaf2d9ec2908810e8e9a43\transformed\jetified-react-native-reanimated-70-hermes\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0377fd678ba87552402888631ec780dc\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0377fd678ba87552402888631ec780dc\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\456146872777beeab747018a0fae10b9\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:5:5-7:41
@@ -370,74 +370,74 @@ MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\Muhammad Umair\.gradle\c
 MERGED from [com.facebook.fresco:fbcore:2.6.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\0e8f4a209ccd57a42fd2c9745d31a047\transformed\jetified-fbcore-2.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\04bfa9422f944f29395bece79b795b2c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\04bfa9422f944f29395bece79b795b2c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
-INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
+INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-		INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\Test\android\app\src\main\AndroidManifest.xml
-		INJECTED from G:\Test\android\app\src\debug\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\TestGit\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:5:5-77
+ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:5:5-77
 	android:name
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:5:22-75
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:5:22-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:11:9-111
+ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:9-111
 	android:exported
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:11:84-108
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:84-108
 	android:name
-		ADDED from G:\Test\android\app\src\debug\AndroidManifest.xml:11:19-83
+		ADDED from G:\TestGit\android\app\src\debug\AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.125.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+ADDED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
 	android:name
-		ADDED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+		ADDED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+ADDED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:react-native-firebase_auth] G:\Test\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+		ADDED from [:react-native-firebase_auth] G:\TestGit\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
 	android:value
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\f6bfc285b1421dbda3f31f0331f5fe48\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\f6bfc285b1421dbda3f31f0331f5fe48\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-32
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] G:\Test\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+		ADDED from [:react-native-firebase_app] G:\TestGit\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\Muhammad Umair\.gradle\caches\transforms-3\edcb463b30cc1979047977fc11e30e65\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
