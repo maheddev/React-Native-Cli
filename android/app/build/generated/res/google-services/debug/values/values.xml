@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">182893740360-vqkk884dnrptlkqf5mact8b37g8la4q1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">182893740360</string>
+    <string name="google_api_key" translatable="false">AIzaSyByKgp7I3rxEKmcGR3091RRu06_HACyXc8</string>
+    <string name="google_app_id" translatable="false">1:182893740360:android:72bcc0cdee3f2534e4737d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByKgp7I3rxEKmcGR3091RRu06_HACyXc8</string>
+    <string name="google_storage_bucket" translatable="false">fuel-forecast.appspot.com</string>
+    <string name="project_id" translatable="false">fuel-forecast</string>
+</resources>
