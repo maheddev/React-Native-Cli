@@ -11,7 +11,7 @@ import {
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import auth from '@react-native-firebase/auth';
 
-const Login = () => {
+const Login = ({navigation}) => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const Data = {
@@ -22,6 +22,7 @@ const Login = () => {
     auth()
       .signInWithEmailAndPassword(email, password)
       .then(() => {
+        navigation.navigate();
         console.log('User account created & signed in!');
       })
       .catch(error => {
