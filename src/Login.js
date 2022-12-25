@@ -12,6 +12,7 @@ import {
 import Lottie from 'lottie-react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import auth from '@react-native-firebase/auth';
+import firestore from '@react-native-firebase/firestore';
 import Dashboard from './dashboard';
 
 const Login = ({navigation}) => {
@@ -48,9 +49,22 @@ const Login = ({navigation}) => {
   };
 
   const SignUpButtonPressed = () => {
+    
     auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {
+        firestore()
+          .collection('User')
+          .doc(email)
+          .set({
+            Name: 'Ahmad',
+            Age: 20,
+            Email: email
+          })
+          .then(() => {
+            console.log('User added!');
+          })
+
         console.log('User account created & signed in!');
       })
       .catch(error => {
