@@ -14,8 +14,10 @@ MERGED from [:react-native-firebase_firestore] D:\TestApp\React-Native-Cli\node_
 MERGED from [:react-native-firebase_app] D:\TestApp\React-Native-Cli\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
 MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] D:\TestApp\React-Native-Cli\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] D:\TestApp\React-Native-Cli\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] D:\TestApp\React-Native-Cli\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\U Tech\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\U Tech\.gradle\caches\transforms-3\eb7552118701046f2690e9b7599e93ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-engine:0.70.6] C:\Users\U Tech\.gradle\caches\transforms-3\ef939b4308d0437abd406177f8e3920d\transformed\jetified-hermes-engine-0.70.6-debug\AndroidManifest.xml:2:1-9:12
@@ -244,10 +246,14 @@ MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lott
 MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] D:\TestApp\React-Native-Cli\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] D:\TestApp\React-Native-Cli\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] D:\TestApp\React-Native-Cli\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] D:\TestApp\React-Native-Cli\node_modules\react-native-screens\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] D:\TestApp\React-Native-Cli\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] D:\TestApp\React-Native-Cli\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\U Tech\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\U Tech\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\U Tech\.gradle\caches\transforms-3\eb7552118701046f2690e9b7599e93ad\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44

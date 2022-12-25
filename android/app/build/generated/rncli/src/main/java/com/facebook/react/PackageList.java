@@ -23,12 +23,16 @@ import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
 import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-linear-gradient
+import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -80,9 +84,11 @@ public class PackageList {
       new ReactNativeFirebaseFirestorePackage(),
       new LottiePackage(),
       new RNGestureHandlerPackage(),
+      new LinearGradientPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage()
+      new RNScreensPackage(),
+      new VectorIconsPackage()
     ));
   }
 }
