@@ -7,8 +7,9 @@ import {
   View,
   ScrollView,
   Pressable,
-  Image
+  Image,
 } from 'react-native';
+import Icon from 'react-native-vector-icons/AntDesign';
 import auth from '@react-native-firebase/auth';
 import Loader from './Loader';
 
@@ -19,6 +20,14 @@ const Login = ({navigation}) => {
   const Data = {
     mail: email,
     pass: password,
+  };
+  const [hidePass, setHidePass] = useState(true);
+  const onPressShowPass = () => {
+    if (hidePass == true) {
+      setHidePass(false);
+    } else {
+      setHidePass(true);
+    }
   };
   const loginState = data => {};
   const LoginButtonPressed = () => {
@@ -54,13 +63,13 @@ const Login = ({navigation}) => {
   };
 
   return (
-    <ScrollView style ={{backgroundColor: '#f5f0d7'}}>
+    <ScrollView style={{backgroundColor: '#f5f0d7'}}>
       {!waiting && (
         <View style={styles.MainView}>
           <View style={styles.TopText}>
             <Image
               style={styles.image}
-              source={require("../assets/icon.png")}
+              source={require('../assets/icon.png')}
             />
             <Text style={styles.tagline}>
               Please Log In to your Account to Continue!
@@ -69,17 +78,28 @@ const Login = ({navigation}) => {
           <View style={styles.InputSection}>
             {/* <Text style={styles.InputTitle}>Email Address</Text> */}
             <TextInput
-            placeholder='Email Address'
+              placeholder="Email Address"
               style={styles.TextInput}
               onChangeText={mail => setEmail(mail)}
             />
             {/* <Text style={styles.InputTitle}>Password</Text> */}
-            <TextInput
-              placeholder='Password'
-              style={styles.TextInput}
-              secureTextEntry={true}
-              onChangeText={pass => setPassword(pass)}
-            />
+            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+              <TextInput
+                placeholder="Password"
+                style={styles.TextInput}
+                onChangeText={i => {
+                  setPassword(i);
+                }}
+                secureTextEntry={hidePass}
+              />
+              <Pressable style={styles.eye} onPress={onPressShowPass}>
+                <Icon
+                  name={!hidePass ? 'eye' : 'eyeo'}
+                  size={30}
+                  color="#000000"
+                />
+              </Pressable>
+            </View>
           </View>
           <View style={styles.ButtonsSection}>
             <Pressable onPress={LoginButtonPressed} style={styles.Pressable}>
@@ -160,6 +180,12 @@ const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
     margin: 10,
+  },
+  eye: {
+    height: 50,
+    position: 'absolute',
+    right: 15,
+    top: 10,
   },
 });
 export default Login;

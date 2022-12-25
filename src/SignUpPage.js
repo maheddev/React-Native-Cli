@@ -12,6 +12,7 @@ import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import {useState} from 'react';
 import Loader from './Loader';
+import Icon from 'react-native-vector-icons/AntDesign';
 export default function SignUpPage({navigation}) {
   const [name, setName] = useState('');
   const [email, SetEmail] = useState('');
@@ -20,7 +21,14 @@ export default function SignUpPage({navigation}) {
   const [confirmPassword, setConfirmPassword] = useState();
   const [cnic, setCnic] = useState('');
   const [waiting, setWaiting] = useState(false);
-
+  const [hidePass, setHidePass] = useState(true);
+  const onPressShowPass = () => {
+    if (hidePass == true) {
+      setHidePass(false);
+    } else {
+      setHidePass(true);
+    }
+  };
   const onPressS = () => {
     if (
       (name != '') &
@@ -44,8 +52,8 @@ export default function SignUpPage({navigation}) {
                 CNIC: cnic,
               })
               .then(() => {
-                navigation.navigate('dashboard');
                 setWaiting(false);
+                navigation.navigate('dashboard');
                 console.log('User added!');
               });
             setWaiting(false);
@@ -71,11 +79,9 @@ export default function SignUpPage({navigation}) {
       } else {
         Alert.alert('Passwords Dont Match!');
       }
+    } else {
+      Alert.alert('Please Enter Data in All the Fields!');
     }
-      else
-      {
-        Alert.alert('Please Enter Data in All the Fields!');
-      } 
   };
   return (
     <ScrollView style={{backgroundColor: '#f5f0d7'}}>
@@ -117,47 +123,60 @@ export default function SignUpPage({navigation}) {
                 setCnic(i);
               }}
             />
-            {/* <Text style={styles.InputTitle}>Password</Text> */}
-            <TextInput
-              placeholder=" Password"
-              style={styles.input}
-              onChangeText={i => {
-                setPassword(i);
-              }}
-            />
+
             {/* <Text style={styles.InputTitle}>Confirm Password</Text> */}
+            <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
+              <TextInput
+                placeholder="Password"
+                style={styles.input}
+                onChangeText={i => {
+                  setConfirmPassword(i);
+                }}
+                secureTextEntry={hidePass}
+              />
+              <Pressable style={styles.eye} onPress={onPressShowPass}>
+                <Icon
+                  name={!hidePass ? 'eye' : 'eyeo'}
+                  size={30}
+                  color="#000000"
+                />
+              </Pressable>
+            </View>
+            {/* <Text style={styles.InputTitle}>Password</Text> */}
             <TextInput
               placeholder="Confirm Password"
               style={styles.input}
               onChangeText={i => {
-                setConfirmPassword(i);
+                setPassword(i);
               }}
+              secureTextEntry={hidePass}
             />
             <View style={styles.ButtonSection}>
-            <Pressable
-              onPress={onPressS}
-              android_ripple={{color: '#ffffff', borderRadius: 10}}
-              hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
-              style={styles.Button}>
-              <Text style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
-                SIGN UP!
-              </Text>
-            </Pressable>
-            <Text style={{margin: 10}}>Already have an Account?</Text>
-            <Pressable
-              onPress={() => {
-                navigation.goBack();
-              }}
-              android_ripple={{color: '#ffffff', borderRadius: 50}}
-              hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
-              style={styles.Button}>
-              <Text style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
-                LOG IN NOW!
-              </Text>
-            </Pressable>
+              <Pressable
+                onPress={onPressS}
+                android_ripple={{color: '#ffffff', borderRadius: 10}}
+                hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
+                style={styles.Button}>
+                <Text
+                  style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
+                  SIGN UP!
+                </Text>
+              </Pressable>
+              <Text style={{margin: 10}}>Already have an Account?</Text>
+              <Pressable
+                onPress={() => {
+                  navigation.goBack();
+                }}
+                android_ripple={{color: '#ffffff', borderRadius: 50}}
+                hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
+                style={styles.Button}>
+                <Text
+                  style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
+                  LOG IN NOW!
+                </Text>
+              </Pressable>
+            </View>
           </View>
-          </View>
-          
         </View>
       )}
       {waiting && <Loader></Loader>}
@@ -167,6 +186,12 @@ export default function SignUpPage({navigation}) {
 const styles = StyleSheet.create({
   TitleView: {
     backgroundColor: 'black',
+  },
+  eye: {
+    height: 50,
+    position: 'absolute',
+    right: 15,
+    top: 10,
   },
   body: {
     marginTop: 20,
@@ -196,6 +221,14 @@ const styles = StyleSheet.create({
   input: {
     borderWidth: 1,
     width: '100%',
+    borderColor: 'black',
+    marginBottom: 15,
+    borderRadius: 10,
+    paddingHorizontal: 15,
+  },
+  inputPass: {
+    borderWidth: 1,
+    width: '80%',
     borderColor: 'black',
     marginBottom: 15,
     borderRadius: 10,
