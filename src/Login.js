@@ -12,6 +12,9 @@ import {
 import Icon from 'react-native-vector-icons/AntDesign';
 import auth from '@react-native-firebase/auth';
 import Loader from './Loader';
+import {FormBuilder} from 'react-native-paper-form-builder';
+import {useForm} from 'react-hook-form';
+import {Button} from 'react-native-paper';
 
 const Login = ({navigation}) => {
   const [email, setEmail] = useState();
@@ -62,8 +65,16 @@ const Login = ({navigation}) => {
     navigation.navigate('SignUpPage');
   };
 
+  const {control, setFocus, handleSubmit} = useForm({
+    defaultValues: {
+      email: '',
+      password: '',
+    },
+    mode: 'onChange',
+  });
+
   return (
-    <ScrollView style={{backgroundColor: '#f5f0d7'}}>
+    <ScrollView>
       {!waiting && (
         <View style={styles.MainView}>
           <View style={styles.TopText}>
@@ -76,16 +87,52 @@ const Login = ({navigation}) => {
             </Text>
           </View>
           <View style={styles.InputSection}>
-            {/* <Text style={styles.InputTitle}>Email Address</Text> */}
-            <TextInput
+            <FormBuilder
+            //style={styles.TextInput}
+              control={control}
+              setFocus={setFocus}
+              
+              formConfigArray={[
+                {
+                  type: 'email',
+                  name: 'email',
+
+                  rules: {
+                    required: {
+                      value: true,
+                      message: 'Email is required',
+                    },
+                  },
+                  textInputProps: {
+                    label: 'Email',
+                  },
+                },
+                {
+                  type: 'password',
+                  name: 'password',
+                  rules: {
+                    required: {
+                      value: true,
+                      message: 'Password is required',
+                    },
+                  },
+                  textInputProps: {
+                    label: 'Password',
+                  },
+                },
+              ]}
+            />
+
+            {/* <TextInput
               placeholder="Email Address"
+              placeholderTextColor="#000"
               style={styles.TextInput}
               onChangeText={mail => setEmail(mail)}
             />
-            {/* <Text style={styles.InputTitle}>Password</Text> */}
             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
               <TextInput
                 placeholder="Password"
+                placeholderTextColor="#000"
                 style={styles.TextInput}
                 onChangeText={i => {
                   setPassword(i);
@@ -99,11 +146,41 @@ const Login = ({navigation}) => {
                   color="#000000"
                 />
               </Pressable>
-            </View>
+            </View> */}
           </View>
           <View style={styles.ButtonsSection}>
-            <Pressable onPress={LoginButtonPressed} style={styles.Pressable}>
-              <Text style={styles.PressableText}>Sign In!</Text>
+            <Pressable
+            style = {styles.Pressable}
+              mode={'contained'}
+              onPress={handleSubmit(data => {
+                console.log('form data', data);
+                setWaiting(true);
+                auth()
+                  .signInWithEmailAndPassword(data.email, data.password)
+                  .then(() => {
+                    console.log('User account created & signed in!');
+                    setWaiting(false);
+                    navigation.navigate('dashboard');
+                  })
+                  .catch(error => {
+                    if (error.code === 'auth/wrong-password') {
+                      setWaiting(false);
+                      Alert.alert('Password Invalid!');
+                    }
+
+                    if (error.code === 'auth/invalid-email') {
+                      setWaiting(false);
+                      Alert.alert('That email address is invalid!');
+                    }
+                    if (error.code === 'auth/network-request-failed') {
+                      setWaiting(false);
+                      Alert.alert('Please check your Internet Connection!');
+                    }
+                    setWaiting(false);
+                    console.log(error);
+                  });
+              })}>
+              <Text style={styles.PressableText}>Log In!</Text>
             </Pressable>
             <Text style={styles.text}>Haven't Registered Yet?</Text>
             <Pressable onPress={SignUpButtonPressed} style={styles.Pressable}>
@@ -123,9 +200,9 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   image: {
-    width: 250,
-    height: 250,
-    marginBottom: 10,
+    width: 200,
+    height: 200,
+    marginBottom: 20,
   },
   TextInput: {
     borderWidth: 1,
@@ -134,6 +211,8 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderRadius: 10,
     paddingHorizontal: 15,
+    color: 'black',
+    fontFamily: 'Poppins-Italic',
   },
   Pressable: {
     width: '100%',
@@ -166,6 +245,7 @@ const styles = StyleSheet.create({
   },
   tagline: {
     color: 'grey',
+    fontFamily: 'Poppins-Medium',
   },
   ButtonsSection: {
     justifyContent: 'center',
@@ -180,6 +260,8 @@ const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
     margin: 10,
+    fontFamily: 'Poppins-Regular',
+    color: 'black',
   },
   eye: {
     height: 50,

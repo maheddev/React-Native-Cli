@@ -7,12 +7,14 @@ import {
   ToastAndroid,
   Alert,
   StyleSheet,
+  Dimensions,
 } from 'react-native';
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import {useState} from 'react';
 import Loader from './Loader';
 import Icon from 'react-native-vector-icons/AntDesign';
+import {FormBuilder} from 'react-native-paper-form-builder';
 export default function SignUpPage({navigation}) {
   const [name, setName] = useState('');
   const [email, SetEmail] = useState('');
@@ -84,16 +86,19 @@ export default function SignUpPage({navigation}) {
     }
   };
   return (
-    <ScrollView style={{backgroundColor: '#f5f0d7'}}>
+    <ScrollView style={{backgroundColor: 'black'}}>
       {!waiting && (
         <View style={{flex: 1}}>
           <View style={styles.TitleView}>
             <Text style={styles.title}>SIGN UP FOR FREE!</Text>
           </View>
           <View style={styles.body}>
-            {/* <Text style={styles.InputTitle}>Full Name</Text> */}
+            <Text style={styles.InputTitle}>
+              Please Input Data in All the Fields
+            </Text>
             <TextInput
               placeholder="Full Name"
+              placeholderTextColor="#000"
               style={styles.input}
               onChangeText={i => {
                 setName(i);
@@ -103,6 +108,7 @@ export default function SignUpPage({navigation}) {
             {/* <Text style={styles.InputTitle}>Email Address</Text> */}
             <TextInput
               placeholder="Email Address"
+              placeholderTextColor="#000"
               style={styles.input}
               onChangeText={i => {
                 SetEmail(i);
@@ -110,6 +116,7 @@ export default function SignUpPage({navigation}) {
             />
             <TextInput
               placeholder="Phone Number"
+              placeholderTextColor="#000"
               style={styles.input}
               onChangeText={i => {
                 setPhone(i);
@@ -118,6 +125,7 @@ export default function SignUpPage({navigation}) {
             {/* <Text style={styles.InputTitle}>CNIC / Form - B Number</Text> */}
             <TextInput
               placeholder="CNIC / Passport Number"
+              placeholderTextColor="#000"
               style={styles.input}
               onChangeText={i => {
                 setCnic(i);
@@ -128,6 +136,7 @@ export default function SignUpPage({navigation}) {
             <View style={{flexDirection: 'row', justifyContent: 'flex-start'}}>
               <TextInput
                 placeholder="Password"
+                placeholderTextColor="#000"
                 style={styles.input}
                 onChangeText={i => {
                   setConfirmPassword(i);
@@ -145,6 +154,7 @@ export default function SignUpPage({navigation}) {
             {/* <Text style={styles.InputTitle}>Password</Text> */}
             <TextInput
               placeholder="Confirm Password"
+              placeholderTextColor="#000"
               style={styles.input}
               onChangeText={i => {
                 setPassword(i);
@@ -158,7 +168,11 @@ export default function SignUpPage({navigation}) {
                 hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
                 style={styles.Button}>
                 <Text
-                  style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
+                  style={{
+                    fontSize: 15,
+                    color: 'white',
+                    fontFamily: 'Poppins-Bold',
+                  }}>
                   SIGN UP!
                 </Text>
               </Pressable>
@@ -171,21 +185,38 @@ export default function SignUpPage({navigation}) {
                 hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
                 style={styles.Button}>
                 <Text
-                  style={{fontWeight: 'bold', fontSize: 15, color: 'white'}}>
+                  style={{
+                    fontSize: 15,
+                    color: 'white',
+                    fontFamily: 'Poppins-Bold',
+                  }}>
                   LOG IN NOW!
                 </Text>
               </Pressable>
             </View>
           </View>
         </View>
+        
       )}
       {waiting && <Loader></Loader>}
+      
     </ScrollView>
   );
 }
 const styles = StyleSheet.create({
+  title: {
+    textAlign: 'center',
+    fontSize: 30,
+    color: 'white',
+    marginTop: 10,
+    marginBottom: 10,
+    fontFamily: 'Poppins-Regular',
+  },
   TitleView: {
-    backgroundColor: 'black',
+    //backgroundColor: 'black',
+    height: 100,
+    justifyContent: 'center',
+    zIndex: 1,
   },
   eye: {
     height: 50,
@@ -194,10 +225,13 @@ const styles = StyleSheet.create({
     top: 10,
   },
   body: {
-    marginTop: 20,
-    marginHorizontal: 20,
-    marginBottom: 40,
+    borderTopRightRadius: 30,
+    borderTopLeftRadius: 30,
+    paddingHorizontal: 20,
+    paddingTop: 25,
     justifyContent: 'center',
+    backgroundColor: '#ffffff',
+    zIndex: 0,
   },
   Button: {
     width: '100%',
@@ -212,11 +246,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 20,
+    paddingBottom: 40,
   },
   InputTitle: {
     fontSize: 15,
     color: 'black',
-    marginTop: 10,
+    marginBottom: 20,
+    textAlign: 'center',
+    fontFamily: 'Poppins-Medium',
   },
   input: {
     borderWidth: 1,
@@ -225,6 +262,8 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderRadius: 10,
     paddingHorizontal: 15,
+    color: 'black',
+    fontFamily: 'Poppins-Italic',
   },
   inputPass: {
     borderWidth: 1,
@@ -233,13 +272,5 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderRadius: 10,
     paddingHorizontal: 15,
-  },
-  title: {
-    textAlign: 'center',
-    fontSize: 30,
-    color: 'white',
-    marginTop: 20,
-    marginBottom: 20,
-    fontWeight: 'bold',
   },
 });

@@ -12,12 +12,18 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Login from './src/Login.js';
 import Dashboard from './src/dashboard.js';
 import SignUpPage from './src/SignUpPage.js';
+import Check from './src/Check.js';
 
 const App = () => {
   const Stack = createStackNavigator();
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        {/* <Stack.Screen
+          name="Check"
+          component={Check}
+          options={{header: () => null}}
+        /> */}
         <Stack.Screen
           name="Login"
           component={Login}

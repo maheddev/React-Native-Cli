@@ -25,16 +25,16 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <ScrollView style={{backgroundColor: '#f5f0d7'}}>
+    <ScrollView>
       {!waiting && (
         <View style={{flex: 1}}>
-          <View style={styles.TitleView}>
-            <Text style={styles.title}>Welcome {user.Name}</Text>
-          </View>
           <View style={styles.body}>
-            <Text>Hello! your Email is: {user.Email}</Text>
-            <Text>Hello! your Email is: {user.Number}</Text>
-            <Text>Hello! your CNIC is: {user.CNIC}</Text>
+            <Text style={styles.title}>Welcome {user.Name}</Text>
+            <Text style={styles.title}>Your Email is: {user.Email}</Text>
+            <Text style={styles.title}>
+              Your Phone Number is: {user.Number}
+            </Text>
+            <Text style={styles.title}>Your CNIC is: {user.CNIC}</Text>
           </View>
         </View>
       )}
@@ -44,19 +44,19 @@ const Dashboard = () => {
 };
 const styles = StyleSheet.create({
   title: {
-    fontSize: 20,
-    color: '#f5f0d7',
-    marginTop: 20,
-    marginBottom: 20,
+    marginBottom: 15,
+    fontSize: 30,
+    color: '#000000',
     fontWeight: 'bold',
     paddingLeft: 12,
+    fontFamily: 'Poppins-Black'
   },
   TitleView: {
     backgroundColor: 'black',
   },
   body: {
-    margin: 10
-  }
+    margin: 10,
+  },
 });
 
 export default Dashboard;
