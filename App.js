@@ -10,33 +10,44 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Login from './src/Login.js';
-import Dashboard from './src/dashboard.js';
+import Dashboard from './src/Dashboard.js';
 import SignUpPage from './src/SignUpPage.js';
 import Check from './src/Check.js';
+import Maps from './src/Maps';
+import {enableLatestRenderer} from 'react-native-maps';
+import RegisterVehicle from './src/RegisterVehicle';
 
 const App = () => {
   const Stack = createStackNavigator();
+  enableLatestRenderer();
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        {/* <Stack.Screen
-          name="Check"
-          component={Check}
+        <Stack.Screen
+          name="Maps"
+          component={Maps}
           options={{header: () => null}}
-        /> */}
+        />
+        <Stack.Screen
+          name="Dashboard"
+          component={Dashboard}
+          options={{header: () => null}}
+        />
         <Stack.Screen
           name="Login"
           component={Login}
           options={{header: () => null}}
         />
+
         <Stack.Screen
           name="SignUpPage"
           component={SignUpPage}
           options={{header: () => null}}
         />
+
         <Stack.Screen
-          name="dashboard"
-          component={Dashboard}
+          name="RegisterVehicle"
+          component={RegisterVehicle}
           options={{header: () => null}}
         />
       </Stack.Navigator>

@@ -91,7 +91,6 @@ const Login = ({navigation}) => {
             //style={styles.TextInput}
               control={control}
               setFocus={setFocus}
-              
               formConfigArray={[
                 {
                   type: 'email',
@@ -160,7 +159,7 @@ const Login = ({navigation}) => {
                   .then(() => {
                     console.log('User account created & signed in!');
                     setWaiting(false);
-                    navigation.navigate('dashboard');
+                    navigation.navigate('Dashboard');
                   })
                   .catch(error => {
                     if (error.code === 'auth/wrong-password') {

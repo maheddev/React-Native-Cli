@@ -1,62 +1,225 @@
-import getAuth from '@react-native-firebase/auth';
-import {View, StyleSheet, Text, ScrollView} from 'react-native';
-import {useRoute} from '@react-navigation/native';
-import firestore from '@react-native-firebase/firestore';
-import {useEffect, useState} from 'react';
-import Loader from './Loader';
+import {useState} from 'react';
+import {
+  Text,
+  View,
+  TextInput,
+  Pressable,
+  Image,
+  StyleSheet,
+  ScrollView,
+} from 'react-native';
+import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
+import DropDownPicker from 'react-native-dropdown-picker';
 
-const Dashboard = () => {
-  const auth = getAuth();
-  const userAuth = auth.currentUser;
-  const email = userAuth.email;
-  const [user, setUser] = useState([]);
-  const getUser = async () => {
-    setWaiting(true);
-    const user = await firestore().collection('User').doc(email).get();
-    setUser(user.data());
+export default function Dashboard({navigation}) {
+  const [stateD, setState] = useState({
+    currentLoc: {},
+    destLoc: {},
+  });
+  const {currentLoc, destLoc} = stateD;
+  const [Average, setAverage] = useState();
+  const [price, setPrice] = useState();
+  const [Expense, setExpense] = useState('....');
 
-    setWaiting(false);
+  function fetchCurrent(lati, lngi) {
+    setState({
+      ...stateD,
+      currentLoc: {
+        latitude: lati,
+        longitude: lngi,
+      },
+    });
+  }
+  const fetchDest = (latD, lngD) => {
+    setState({
+      ...stateD,
+      destLoc: {
+        latitude: latD,
+        longitude: lngD,
+      },
+    });
   };
-  const [waiting, setWaiting] = useState(false);
 
-  useEffect(() => {
-    getUser();
-    console.log('Loader Stopped');
-  }, []);
+  const onPressh = () => {
+    console.log(currentLoc);
+    navigation.navigate('Maps', {
+      currentLoc: currentLoc,
+      destLoc: destLoc,
+      Average: Average,
+      price: price,
+    });
+  };
+  const addVehicle = () => {
+    navigation.navigate('RegisterVehicle');
+  };
+
+  const [open, setOpen] = useState(false);
+  const [value, setValue] = useState(null);
+  const [items, setItems] = useState([
+    {label: 'Petrol', value: 'Petrol'},
+    {label: 'Diesel', value: 'Diesel'},
+    {label: 'CNG', value: 'CNG'},
+  ]);
 
   return (
-    <ScrollView>
-      {!waiting && (
-        <View style={{flex: 1}}>
-          <View style={styles.body}>
-            <Text style={styles.title}>Welcome {user.Name}</Text>
-            <Text style={styles.title}>Your Email is: {user.Email}</Text>
-            <Text style={styles.title}>
-              Your Phone Number is: {user.Number}
-            </Text>
-            <Text style={styles.title}>Your CNIC is: {user.CNIC}</Text>
-          </View>
-        </View>
-      )}
-      {waiting && <Loader></Loader>}
+    <ScrollView
+      contentContainerStyle={styles.mainScrollView}
+      keyboardShouldPersistTaps="handled">
+      <View style={styles.View1}>
+        <Pressable
+          onPress={addVehicle}
+          android_ripple={{color: '#ffffff', borderRadius: 10}}
+          hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
+          style={styles.pressable}>
+          <Text style={styles.pressableText}>Add New Vehicle</Text>
+        </Pressable>
+        <GooglePlacesAutocomplete
+          placeholder="Current Location"
+          fetchDetails={true}
+          onPress={(data, details = null) => {
+            const latC = details.geometry.location.lat.toString();
+            const lngC = details.geometry.location.lng.toString();
+            fetchCurrent(latC, lngC);
+          }}
+          styles={{
+            textInputContainer: {
+              width: '100%',
+            },
+            textInput: {
+              height: 50,
+              borderColor: '#000000',
+              borderWidth: 2,
+              color: 'black',
+              borderRadius: 10,
+              marginBottom: 10,
+            },
+            predefinedPlacesDescription: {
+              color: '#1faadb',
+            },
+          }}
+          query={{
+            key: 'AIzaSyDbfbWiIvjK79U_aI8urPCbcxcMWEVirW4',
+            language: 'en',
+          }}
+        />
+
+        {/* <Text style={styles.Text1}>Destination</Text> */}
+        <GooglePlacesAutocomplete
+          placeholder="Destination"
+          fetchDetails={true}
+          onPress={(data, details) => {
+            const lat = details.geometry.location.lat.toString();
+            const lng = details.geometry.location.lng.toString();
+            fetchDest(lat, lng);
+          }}
+          styles={{
+            textInputContainer: {
+              width: '100%',
+            },
+            textInput: {
+              height: 50,
+              borderColor: '#000000',
+              borderWidth: 2,
+              color: 'black',
+              borderRadius: 10,
+              marginBottom: 10,
+            },
+            predefinedPlacesDescription: {
+              color: '#1faadb',
+            },
+          }}
+          query={{
+            key: 'AIzaSyDbfbWiIvjK79U_aI8urPCbcxcMWEVirW4',
+            language: 'en',
+          }}
+        />
+        <DropDownPicker
+          placeholder="Please Select the Vehicle"
+          open={open}
+          value={value}
+          items={items}
+          setOpen={setOpen}
+          setValue={setValue}
+          setItems={setItems}
+          style={{
+            marginBottom: 10,
+            borderRadius: 10,
+            borderWidth: 2,
+            height: 50,
+          }}
+        />
+        <Pressable
+          onPress={onPressh}
+          android_ripple={{color: '#ffffff', borderRadius: 10}}
+          hitSlop={{top: 20, bottom: 20, left: 20, right: 20}}
+          style={styles.pressable}>
+          <Text style={styles.pressableText}>CALCULATE EXPENESE!</Text>
+        </Pressable>
+      </View>
+      <View style={styles.button1}></View>
     </ScrollView>
   );
-};
+}
 const styles = StyleSheet.create({
-  title: {
-    marginBottom: 15,
-    fontSize: 30,
-    color: '#000000',
-    fontWeight: 'bold',
-    paddingLeft: 12,
-    fontFamily: 'Poppins-Black'
+  mainScrollView: {
+    flexGrow: 1,
+    backgroundColor: 'white',
+    justifyContent: 'center',
   },
-  TitleView: {
+  container: {
+    flex: 0.1,
+    backgroundColor: '#4270b1',
+    paddingTop: 40,
+    paddingBottom: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  View1: {
+    marginHorizontal: 10,
+    justifyContent: 'center',
+  },
+  image: {
+    width: '100%',
+    height: 130,
+    marginBottom: 20,
+  },
+  Text1: {
+    fontSize: 20,
+    color: '#4270b1',
+    marginTop: 20,
+  },
+  Text2: {
+    fontSize: 20,
+    color: '#4270b1',
+    marginVertical: 20,
+  },
+  button1: {
+    flex: 0.2,
+    alignItems: 'center',
+  },
+  placeholder: {
+    backgroundColor: 'white',
+    width: '100%',
+    marginbottom: 20,
+    borderColor: '#4270b1',
+    borderBottomWidth: 1,
+    marginTop: 5,
+    paddingLeft: 10,
+    paddingBottom: 10,
+  },
+  pressable: {
+    width: '100%',
+    height: 50,
+    borderRadius: 10,
+    color: '#ffffff',
+    justifyContent: 'center',
+    alignItems: 'center',
     backgroundColor: 'black',
+    marginBottom: 10,
   },
-  body: {
-    margin: 10,
+  pressableText: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: 'white',
   },
 });
-
-export default Dashboard;

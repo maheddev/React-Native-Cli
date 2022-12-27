@@ -55,7 +55,7 @@ export default function SignUpPage({navigation}) {
               })
               .then(() => {
                 setWaiting(false);
-                navigation.navigate('dashboard');
+                navigation.navigate('Dashboard');
                 console.log('User added!');
               });
             setWaiting(false);
@@ -86,9 +86,9 @@ export default function SignUpPage({navigation}) {
     }
   };
   return (
-    <ScrollView style={{backgroundColor: 'black'}}>
+    <ScrollView>
       {!waiting && (
-        <View style={{flex: 1}}>
+        <View style={{flex: 1, backgroundColor: 'black'}}>
           <View style={styles.TitleView}>
             <Text style={styles.title}>SIGN UP FOR FREE!</Text>
           </View>
@@ -115,6 +115,7 @@ export default function SignUpPage({navigation}) {
               }}
             />
             <TextInput
+            keyboardType= 'numeric'
               placeholder="Phone Number"
               placeholderTextColor="#000"
               style={styles.input}
@@ -211,12 +212,14 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
     fontFamily: 'Poppins-Regular',
+    
   },
   TitleView: {
     //backgroundColor: 'black',
     height: 100,
     justifyContent: 'center',
     zIndex: 1,
+    
   },
   eye: {
     height: 50,
