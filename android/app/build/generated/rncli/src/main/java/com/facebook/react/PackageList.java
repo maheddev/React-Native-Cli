@@ -23,6 +23,8 @@ import io.invertase.firebase.firestore.ReactNativeFirebaseFirestorePackage;
 import com.airbnb.android.react.lottie.LottiePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
+// react-native-get-location
+import com.github.douglasjunior.reactNativeGetLocation.ReactNativeGetLocationPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-maps
@@ -86,6 +88,7 @@ public class PackageList {
       new ReactNativeFirebaseFirestorePackage(),
       new LottiePackage(),
       new RNGestureHandlerPackage(),
+      new ReactNativeGetLocationPackage(),
       new LinearGradientPackage(),
       new MapsPackage(),
       new ReanimatedPackage(),

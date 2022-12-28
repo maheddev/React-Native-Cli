@@ -23,16 +23,8 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen
-          name="Maps"
-          component={Maps}
-          options={{header: () => null}}
-        />
-        <Stack.Screen
-          name="Dashboard"
-          component={Dashboard}
-          options={{header: () => null}}
-        />
+        
+        
         <Stack.Screen
           name="Login"
           component={Login}
@@ -44,10 +36,19 @@ const App = () => {
           component={SignUpPage}
           options={{header: () => null}}
         />
-
+        <Stack.Screen
+          name="Maps"
+          component={Maps}
+          options={{header: () => null}}
+        />
         <Stack.Screen
           name="RegisterVehicle"
           component={RegisterVehicle}
+          options={{header: () => null}}
+        />
+        <Stack.Screen
+          name="Dashboard"
+          component={Dashboard}
           options={{header: () => null}}
         />
       </Stack.Navigator>

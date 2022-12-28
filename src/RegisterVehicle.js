@@ -47,7 +47,9 @@ export default function RegisterVehicle({navigation}) {
   ];
 
   const Item = ({title, Model, avg, type}) => (
-    <View style={styles.FlatList}>
+    <Pressable style={styles.FlatList} onPress={()=>{
+      navigation.navigate("Dashboard");
+    }}>
       <View
         style={{
           justifyContent: 'center',
@@ -60,7 +62,7 @@ export default function RegisterVehicle({navigation}) {
         <Text style={{marginBottom: 5, color: 'black', fontFamily: 'Poppins-Regular'}}>Fuel Average: {avg}</Text>
         <Text style={{marginBottom:5, color: 'black', fontFamily: 'Poppins-Regular'}}>Fuel Type: {type}</Text>
       </View>
-    </View>
+    </Pressable>
   );
 
   const renderItem = ({item}) => (
@@ -220,8 +222,8 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: 'black',
     marginTop: 10,
-    marginBottom:5,
     fontFamily: 'Poppins-Bold',
+    margin: -10
   },
   TitleView: {
     //backgroundColor: 'black',

@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
-INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
-INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
-INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
-MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
+INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
+INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
+INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
+MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\U Tech\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] C:\Users\U Tech\.gradle\caches\transforms-3\00ab1e612f77b9cac62d598d847ae985\transformed\jetified-flipper-network-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] C:\Users\U Tech\.gradle\caches\transforms-3\aaaedaa93dfd23893931742c0d2d21ce\transformed\jetified-flipper-fresco-plugin-0.125.0\AndroidManifest.xml:8:1-15:12
@@ -15,6 +15,7 @@ MERGED from [:react-native-firebase_firestore] D:\TestApp\React-Native-Cli\node_
 MERGED from [:react-native-firebase_app] D:\TestApp\React-Native-Cli\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-32:12
 MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-get-location] D:\TestApp\React-Native-Cli\node_modules\react-native-get-location\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-maps] D:\TestApp\React-Native-Cli\node_modules\react-native-maps\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] D:\TestApp\React-Native-Cli\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -107,24 +108,24 @@ INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.
 INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:2:3-21
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:70-88
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:2:3-21
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:70-88
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-30:12
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:1-16:12
 		INJECTED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:3:3-65
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\U Tech\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.125.0] C:\Users\U Tech\.gradle\caches\transforms-3\e4194d73fe93b3c50d9bc6a16cde53c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:15:5-67
 MERGED from [:react-native-firebase_auth] D:\TestApp\React-Native-Cli\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
@@ -138,11 +139,21 @@ MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\U Tech\.gradle\c
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\U Tech\.gradle\caches\transforms-3\8019c238fe652fac2b54554226aa0937\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\U Tech\.gradle\caches\transforms-3\8019c238fe652fac2b54554226aa0937\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:3:20-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:4:3-76
+	android:name
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:4:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:5:3-78
+MERGED from [:react-native-get-location] D:\TestApp\React-Native-Cli\node_modules\react-native-get-location\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [:react-native-get-location] D:\TestApp\React-Native-Cli\node_modules\react-native-get-location\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:5:20-76
 application
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:5-29:19
-MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:5-29:19
-MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:5-29:19
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:3-15:17
+MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:3-15:17
+MERGED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:3-15:17
 MERGED from [:react-native-firebase_app] D:\TestApp\React-Native-Cli\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
 MERGED from [:react-native-firebase_app] D:\TestApp\React-Native-Cli\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-30:19
 MERGED from [com.facebook.react:react-native:0.70.6] C:\Users\U Tech\.gradle\caches\transforms-3\bf9fffbce406bda66ef5cb0164ba8507\transformed\jetified-react-native-0.70.6-debug\AndroidManifest.xml:9:5-20
@@ -196,57 +207,57 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\U Tech\.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\U Tech\.gradle\caches\transforms-3\8fcb66759c7e5a40fc028cb8d6aa1769\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:7-39
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:48-80
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:48-80
 	tools:ignore
 		ADDED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:11:7-52
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:11:7-52
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:116-161
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:116-161
 	tools:targetApi
 		ADDED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:10:7-41
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:81-115
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:81-115
 	android:allowBackup
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:12:7-34
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:12:7-34
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:162-189
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:162-189
 	android:theme
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:13:7-38
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:13:7-38
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:190-221
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:190-221
 	android:usesCleartextTraffic
 		ADDED from D:\TestApp\React-Native-Cli\android\app\src\debug\AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:8:7-38
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:16-47
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:6:16-47
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:14:7-16:64
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:7:5-119
 	android:value
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:16:7-62
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:7:62-117
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:15:7-52
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:7:16-61
 activity#com.test.MainActivity
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:18:7-28:18
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:5-14:16
 	android:label
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:44-76
 	android:launchMode
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:187-218
 	android:exported
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:23:9-32
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:219-242
 	android:configChanges
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:21:9-118
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:77-186
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:19:9-37
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:9:15-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:24:9-27:25
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:10:7-13:23
 action#android.intent.action.MAIN
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:25:13-65
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:11:9-61
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:25:21-62
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:11:17-58
 category#android.intent.category.LAUNCHER
-ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:26:13-73
+ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:12:9-69
 	android:name
-		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:26:23-70
+		ADDED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml:12:19-66
 uses-sdk
 INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\TestApp\React-Native-Cli\android\app\src\main\AndroidManifest.xml
@@ -271,6 +282,8 @@ MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lott
 MERGED from [:lottie-react-native] D:\TestApp\React-Native-Cli\node_modules\lottie-react-native\src\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] D:\TestApp\React-Native-Cli\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] D:\TestApp\React-Native-Cli\node_modules\react-native-get-location\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] D:\TestApp\React-Native-Cli\node_modules\react-native-get-location\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-linear-gradient] D:\TestApp\React-Native-Cli\node_modules\react-native-linear-gradient\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-maps] D:\TestApp\React-Native-Cli\node_modules\react-native-maps\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41

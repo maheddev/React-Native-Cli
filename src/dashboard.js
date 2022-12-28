@@ -45,8 +45,10 @@ export default function Dashboard({navigation}) {
     navigation.navigate('Maps', {
       currentLoc: currentLoc,
       destLoc: destLoc,
-      Average: Average,
-      price: price,
+      // Average: Average,
+      Average: 30,
+      //price: price,
+      price: 220
     });
   };
   const addVehicle = () => {
