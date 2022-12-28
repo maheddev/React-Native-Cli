@@ -17,7 +17,7 @@ export default function Maps({route, navigation}) {
   const [originL, setOL] = useState(parseFloat(currentLoc.latitude));
   const [originA, setOA] = useState(parseFloat(destLoc.longitude));
   const [isLP, setLP] = useState(false);
-  const [P, setP] = useState(false);
+  const [P, setP] = useState(true);
   const [func, setFunc] = useState('standard');
   console.log(parseFloat(currentLoc.latitude));
   console.log(destLoc);
@@ -147,8 +147,8 @@ export default function Maps({route, navigation}) {
       </View>
       <View style={{position: 'absolute', bottom: 100, zIndex: 1, right: 8}}>
         <Pressable onPress={() => {
-          if (!P) {
-            setP(P);
+          if (P) {
+            setP(false);
             setFunc("satellite")
           }
           else{
