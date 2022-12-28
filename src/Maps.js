@@ -147,11 +147,12 @@ export default function Maps({route, navigation}) {
       </View>
       <View style={{position: 'absolute', bottom: 100, zIndex: 1, right: 8}}>
         <Pressable onPress={() => {
-          if (P) {
+          if (P == true) {
             setP(false);
             setFunc("satellite")
           }
           else{
+            setP(true);
             setFunc("standard")
           }
         }}>
